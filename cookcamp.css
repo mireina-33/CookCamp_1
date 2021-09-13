@@ -1,0 +1,241 @@
+body {
+  background-color: #f5f5dd;
+  margin: 0;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: inset;
+}
+
+header section {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header section a {
+  text-decoration: none;
+  color: #664433;
+  flex: 1;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+header ul {
+  padding: 0;
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header li {
+  flex: 1;
+  list-style-type: none;
+  text-align: center;
+  border-right: inset;
+  margin: 5px;
+}
+
+.resipi {
+  border-right: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #664433;
+  display: block;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+/*
+.mainView1 {
+  width: 960px;
+}:/
+
+/*スライド部分*/
+#slide {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 960px;
+}
+
+#slide ul {
+  position: absolute;
+  width: 2880px;
+  padding: 0;
+}
+
+#slide li {
+  float: left;
+  width: 960px;
+  list-style: none;
+}
+
+/*ボタン*/
+button {
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  border: none;
+  background: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 130px;
+  right: 10px;
+}
+
+main > div {
+  display: flex;
+}
+
+h2 {
+  background: #99bb22 url(images/icon/dish.png) no-repeat 10px;
+  line-height: 40px;
+  padding-left: 36px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+main div nav section {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+main div nav section ul {
+  padding: 10px;
+}
+
+main div nav section ul img {
+  float: left;
+  margin-top: 10px;
+}
+
+main div nav section ul li {
+  list-style-type: none;
+  border-bottom: dotted;
+}
+
+.nav1 {
+  border-bottom: none;
+}
+
+main div nav section ul li a {
+  text-decoration: none;
+  color: #664433;
+  display: block;
+  line-height: 34px;
+  background: url(images/icon/arrow.png) no-repeat 0;
+  padding-left: 25px;
+}
+
+article {
+  flex: 1;
+}
+
+article section {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+article section > div {
+  display: flex;
+}
+
+figure {
+  margin: 0;
+  flex: 1;
+  font-size: 12px;
+  text-align: center;
+}
+
+article section a {
+  text-decoration: none;
+  color: #fc8833;
+}
+
+.flex {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  margin: 10px;
+}
+
+.right {
+  flex: 1.5;
+  text-indent: 1em;
+}
+
+.next {
+  text-align: right;
+}
+
+h3 {
+  color: #664433;
+}
+
+aside section {
+  padding: 10px 0;
+}
+
+aside section a {
+  display: block;
+}
+
+footer {
+  background-color: #ffffff;
+  border-top: inset;
+}
+
+footer ul {
+  padding: 10px;
+  display: flex;
+  width: 694px;
+  margin: 0 auto;
+}
+
+footer ul li {
+  list-style-type: none;
+  flex: 1;
+  text-align: center;
+  border-right-style: inset;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #664433;
+  display: block;
+}
+
+footer p {
+  text-align: center;
+  color: #664433;
+  margin: 0;
+}
